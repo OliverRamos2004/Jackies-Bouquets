@@ -3,34 +3,34 @@ import { ChevronLeft, ChevronRight } from 'lucide-react'
 
 const bouquets = [
   {
-    name: 'Spring Serenade',
-    category: 'Birthday',
-    image: '/images/bouquet-spring-serenade.png',
-  },
-  {
-    name: 'Garden Charm',
-    category: 'Just Because',
-    image: '/images/bouquet-garden-charm.png',
-  },
-  {
-    name: 'Winter Whispers',
-    category: 'Anniversaries',
-    image: '/images/bouquet-winter-whispers.png',
-  },
-  {
-    name: 'Rose Perfection',
-    category: 'Roses',
-    image: '/images/bouquet-rose-perfection.png',
-  },
-  {
-    name: 'Summer Symphony',
+    name: '"MY FOREVER LOVE"',
     category: 'Special Occasions',
-    image: '/images/bouquet-summer-symphony.png',
+    image: '/images/white-pink-roses.jpeg',
   },
   {
-    name: 'Floral Fantasy',
-    category: 'Special Occasions',
-    image: '/images/bouquet-floral-fantasy.png',
+    name: '"RED AND GOLD"',
+    category: 'Hand-Crafted',
+    image: '/images/red-gold.jpeg',
+  },
+  {
+    name: '"TE AMO BONITA"',
+    category: 'Just-Because',
+    image: '/images/pink-white-roses.jpeg',
+  },
+  {
+    name: '"ROSE PERFECTION"',
+    category: 'Elegant Roses',
+    image: '/images/white-roses.jpeg',
+  },
+  {
+    name: '"BIRTHDAY ROSES"',
+    category: 'Birthdays',
+    image: '/images/rose-bday.jpeg',
+  },
+  {
+    name: '"PINK AND WHITE"',
+    category: 'For That Special Someone',
+    image: '/images/pink-white.jpeg',
   },
 ]
 
@@ -96,7 +96,7 @@ export function FeaturedBouquets() {
                   <img
                     src={b.image || '/placeholder.svg'}
                     alt={`${b.name} bouquet`}
-                    className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    className="h-full w-full object-cover object-bottom transition-transform duration-500 group-hover:scale-105"
                   />
                   <span className="absolute left-4 top-4 rounded-full bg-background/85 px-3 py-1 text-xs font-medium text-rose backdrop-blur-sm">
                     {b.category}

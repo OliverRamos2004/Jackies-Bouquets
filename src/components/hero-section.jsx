@@ -22,7 +22,7 @@ export function HeroSection() {
           </h1>
           <p className="mt-6 max-w-md text-pretty text-base leading-relaxed text-muted-foreground md:text-lg">
             {
-              "Welcome to Jacky's Bouquetss. Every arrangement is hand-crafted with seasonal stems, gathered fresh and styled to make any moment unforgettable."
+              "At Jacky's Bouquetss, every arrangement is hand-crafted with seasonal stems, gathered fresh and styled to make any moment unforgettable."
             }
           </p>
 
@@ -43,21 +43,24 @@ export function HeroSection() {
           </div>
         </div>
 
-        <div className="relative order-1 md:order-2">
-          <div className="relative mx-auto aspect-[4/5] w-full max-w-md">
+        <div className="relative order-1 md:order-2 flex justify-center items-center">
+          <div className="relative mx-auto w-[34rem] h-[34rem] max-w-full">
             <div
               aria-hidden="true"
-              className="absolute inset-0 rounded-[48%_52%_47%_53%/55%_45%_55%_45%] bg-blush"
+              className="absolute inset-0 rounded-full bg-blush"
             />
-            <div className="absolute inset-3 overflow-hidden rounded-[48%_52%_47%_53%/55%_45%_55%_45%] shadow-xl ring-1 ring-white/40">
+            <div className="absolute inset-5 overflow-hidden rounded-full shadow-xl ring-1 ring-white/40 flex items-center justify-center">
               <img
-                src="/images/hero-bouquet.png"
+                src="/images/IMG_7696 2.jpeg"
                 alt="An elegant blush pink and cream floral arrangement"
-                className="h-full w-full object-cover"
+                className="h-full w-full object-cover object-bottom"
+                draggable="false"
               />
             </div>
           </div>
         </div>
+
+ 
       </div>
     </section>
   )

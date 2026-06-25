@@ -2,8 +2,8 @@ import { Leaf, Hand, Sparkles } from 'lucide-react'
 
 const points = [
   { Icon: Hand, label: 'Hand-crafted', text: 'Every stem placed by hand.' },
-  { Icon: Leaf, label: 'Locally sourced', text: 'Fresh, seasonal blooms from Texas growers.' },
-  { Icon: Sparkles, label: 'Personalized', text: 'Premium blooms styled to suit your story.' },
+  { Icon: Leaf, label: 'Locally sourced', text: 'Fresh blooms from Texas growers.' },
+  { Icon: Sparkles, label: 'Personalized', text: 'Premium bouquets styled to suit your story.' },
 ]
 
 export function AboutSection() {
@@ -13,15 +13,15 @@ export function AboutSection() {
         <div className="relative">
           <div className="relative aspect-[4/5] overflow-hidden rounded-[2rem] shadow-xl">
             <img
-              src="/images/about-florist.png"
-              alt="Jacky arranging a bouquet of blush flowers at her studio workbench"
+              src="/images/hero-img.jpeg"
+              alt="photo of Jacky"
               className="h-full w-full object-cover"
             />
           </div>
           <div className="absolute -bottom-6 -right-2 rounded-2xl bg-rose px-6 py-5 text-primary-foreground shadow-lg md:-right-6">
-            <p className="font-serif text-3xl leading-none">Note</p>
+            <p className="font-serif text-3xl leading-none">@jackybouquetss</p>
             <p className="mt-1 text-xs uppercase tracking-wider opacity-90">
-              Note
+              follow us on instagram
             </p>
           </div>
         </div>
@@ -31,7 +31,7 @@ export function AboutSection() {
             Our story
           </p>
           <h2 className="mt-3 text-balance font-serif text-4xl leading-tight text-foreground md:text-5xl">
-            A little studio with a love for blooms
+            Hand-crafted with a love for blooms
           </h2>
           <div className="mt-6 space-y-4 text-pretty leading-relaxed text-muted-foreground">
             <p>
