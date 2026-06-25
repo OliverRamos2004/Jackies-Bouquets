@@ -3,6 +3,7 @@ import { HeroSection } from '@/components/hero-section'
 import { CategoriesSection } from '@/components/categories-section'
 import { FeaturedBouquets } from '@/components/featured-bouquets'
 import { AboutSection } from '@/components/about-section'
+import { ContactPage } from '@/components/contact-section'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <CategoriesSection />
         <FeaturedBouquets />
         <AboutSection />
+        <ContactPage/>
       </main>
     </div>
   )

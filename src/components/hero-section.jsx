@@ -15,7 +15,7 @@ export function HeroSection() {
         <div className="order-2 md:order-1">
           <span className="inline-flex items-center gap-1.5 rounded-full bg-secondary px-4 py-1.5 text-xs font-medium uppercase tracking-[0.18em] text-rose">
             <MapPin className="h-3.5 w-3.5" aria-hidden="true" />
-            Austin, Texas
+            Donna, Texas
           </span>
           <h1 className="mt-6 text-balance font-serif text-5xl leading-[1.05] tracking-tight text-rose sm:text-6xl lg:text-7xl">
             Blooms made <span className="italic text-foreground">with love</span>

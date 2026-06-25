@@ -71,3 +71,9 @@
     @apply font-sans scroll-smooth;
   }
 }
+
+html {
+  scroll-behavior: smooth;
+  /* If you want header padding offsets so the title isn't cut off when clicking: */
+  scroll-padding-top: 80px; 
+}

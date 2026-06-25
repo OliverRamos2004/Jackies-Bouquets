@@ -18,11 +18,19 @@ export function AboutSection() {
               className="h-full w-full object-cover"
             />
           </div>
-          <div className="absolute -bottom-6 -right-2 rounded-2xl bg-rose px-6 py-5 text-primary-foreground shadow-lg md:-right-6">
-            <p className="font-serif text-3xl leading-none">@jackybouquetss</p>
-            <p className="mt-1 text-xs uppercase tracking-wider opacity-90">
-              follow us on instagram
-            </p>
+          {/* Keep the absolute positioning on the container div */}
+          <div className="absolute -bottom-6 -right-2 rounded-2xl bg-rose text-primary-foreground shadow-lg md:-right-6 transition-transform duration-300 hover:scale-105">
+            <a 
+              href="https://www.instagram.com/jackybouquetss" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="block px-6 py-5 focus:outline-none focus:ring-2 focus:ring-rose focus:ring-offset-2 rounded-2xl"
+            >
+              <p className="font-serif text-3xl leading-none">@jackybouquetss</p>
+              <p className="mt-1 text-xs uppercase tracking-wider opacity-90">
+                follow us on instagram
+              </p>
+            </a>
           </div>
         </div>
 
